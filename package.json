@@ -12,6 +12,7 @@
     "deployInstance": "ts-node --project ./tsconfig.json scripts/2-deployInstance.ts",
     "getStatus": "ts-node --project ./tsconfig.json scripts/3-getStatus.ts",
     "restart": "ts-node --project ./tsconfig.json scripts/4-restart.ts",
+    "stop": "ts-node --project ./tsconfig.json scripts/6-stop.ts",
     "update": "ts-node --project ./tsconfig.json scripts/5-update.ts",
     "getInstance": "ts-node --project ./tsconfig.json scripts/getInstance.ts"
   },

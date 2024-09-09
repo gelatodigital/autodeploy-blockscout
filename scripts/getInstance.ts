@@ -14,7 +14,7 @@ const key = process.env.KEY;
 
 const createInstance = async () => {
 
-let {data} = await axios.post(baseURL,{
+let {data} = await axios.get(baseURL,{
     headers: {
       'Content-Type': 'application/json',
       'x-api-key': key
